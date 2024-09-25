@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/1b9706a689.js" crossorigin="anonymous"></script>
+    <title>Gloria</title>
+</head>
+
+<body>
+    <header class="hearder">
+        <img class="logo" src="./img/logo.webp" alt="">
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a class="nav__a" href="#">Inicio</a></li>
+                <li class="nav__li"><a class="nav__a" href="#">Productos</a></li>
+                <li class="nav__li"><a class="nav__a" href="#">Sucursales</a></li>
+                <li class="nav__li"><a class="nav__a" href="#">Contacto</a></li>
+                <!-- <li class="nav__li "><a href="" class="nav__li--cart-shop"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <h1>Panaderia y pasteleria</h1>
+    <main class="main">
+        <div class="message" id="message">Producto agregado</div>
+        <button class="abrir" id="openCart"><i class="fa-solid fa-cart-shopping fa-2xl"></i></button>
+        <div class="cart-shop" id="cart">
+            <button class="close" id="closeCart"><i class=" fa-solid fa-xmark fa-2xl"></i></button>
+            <h2>Carrito</h2>
+            <div class="items" id="items">
+            </div>
+            <div class="cart-shop__container">
+                <p class="cart-shop__total">Total: $<span id="total">0.00</span></p>
+                <button class="cart-shop__button">Vaciar carrito</button>
+            </div>
+        </div>
+        </div>
+        <div class="categorys">
+            <div class="category">
+                <img class="category__image" src="./img/concha_chocolate.webp" alt="">
+                <button class="card__button card__button--size">Panaderia</button>
+            </div>
+            <div class="category">
+                <img class="category__image" src="./img/pastel_durazno.webp" alt="">
+                <button class="card__button card__button--size">Pasteleria</button>
+            </div>
+            <div class="category">
+                <img class="category__image" src="./img/gelatina_arcoiris.webp" alt="">
+                <button class="card__button card__button--size">Gelatinas</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="category">
+                <button class="card__button card__button--size">Panaderia</button>
+            </div>
+            <div class="category">
+                <button class="card__button card__button--size">Pasteleria</button>
+            </div>
+            <div class="category">
+                <button class="card__button card__button--size">Gelatinas</button>
+            </div>
+        </div>
+        <section id="cards" class="cards">
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="start">
+            <h2 class="footer__title">INICIO</h2>
+            <ul class="footer__ul--links">
+                <li class="footer__li"><a class="footer__a" href="#">Blog</a></li>
+                <li class="footer__li"><a class="footer__a" href="#">Facturación</a></li>
+                <li class="footer__li"><a class="footer__a" href="#">Bolsa de Trabajo</a></li>
+            </ul>
+        </div>
+        <div class="legal">
+            <h2 class="footer__title">LEGALES</h2>
+            <ul class="footer__ul--links">
+                <li class="footer__li"><a class="footer__a" href="#">Aviso de Privacidad</a></li>
+                <li class="footer__li"><a class="footer__a" href="#">Términos y Condiciones</a></li>
+            </ul>
+        </div>
+        <div class="follow">
+            <h2 class="footer__title">SIGUENOS</h2>
+            <ul class="footer__ul--socials">
+                <li class="__li"><a href="#"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></a>
+                </li>
+                <li class="__li"><a href="#"><i class="fa-brands fa-square-instagram fa-xl"
+                            style="color: #ffffff;"></i></a></li>
+                <li class="__li"><a href="#"><i class="fa-brands fa-square-x-twitter fa-xl"
+                            style="color: #ffffff;"></i></a></li>
+                <li class="__li"><a href="#"><i class="fa-brands fa-tiktok fa-xl" style="color: #ffffff;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
